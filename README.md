@@ -55,5 +55,9 @@ Each image was then normalized to center around 0 mean and sd.
 
 ### Model Architecture
 
-
+<p align="center">
+  <img src="/results/nn.png">
+  <br>
+  <b>Modified Lenet<b>
+</p>
 
