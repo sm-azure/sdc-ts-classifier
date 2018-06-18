@@ -21,13 +21,13 @@ The distribution of the training set and validation set.
 <p align="center">
   <img src="/results/distrib_1.png">
   <br>
-  <b>Training Set Distribution<b>
+  <b>Training Set Distribution</b>
 </p>
 
 <p align="center">
   <img src="/results/distrib_2.png">
   <br>
-  <b>Validation Set Distribution<b>
+  <b>Validation Set Distribution</b>
 </p>
 
 ## Design and Test a Model Architecture
@@ -49,7 +49,7 @@ The resultant distribution was as shown below. **This step single handedly impro
 <p align="center">
   <img src="/results/distrib_3.png">
   <br>
-  <b>Training Set Distribution Post Random Oversampling<b>
+  <b>Training Set Distribution Post Random Oversampling</b>
 </p>
 
 #### RGB to Grayscale
@@ -73,7 +73,7 @@ The final picture looks like the one below. All activations used were RELU.
 <p align="center">
   <img src="/results/nn.png">
   <br>
-  <b>Modified Lenet<b>
+  <b>Modified Lenet</b>
 </p>
 
 
@@ -107,7 +107,7 @@ The 5 new images were downloaded from the Internet and are shown below,
   <img src="/results/t4.png">
   <img src="/results/t5.png">
   <br>
-  <b>New Test Images<b>
+  <b>New Test Images</b>
 </p>
 
 Comparision with some random images from the training set for the above categories.
@@ -118,7 +118,7 @@ Comparision with some random images from the training set for the above categori
   <img src="/results/t14.png">
   <img src="/results/t15.png">
   <br>
-  <b>Training Data Sets<b>
+  <b>Training Data Sets</b>
 </p>
 
 The images from the web should not be too difficult to classify. However, the rectangular shape below the "Children crossing" could make it difficult to identify.  
@@ -130,12 +130,12 @@ The accuracy of the new images is 60%. The images that were incorrectly identifi
 <p align="left">
   <img src="/results/t21.png">
   <br>
-  <b>Bicycles crossing<b>
+  <b>Bicycles crossing</b>
 </p>
 <p align="left">
   <img src="/results/t22.png">
   <br>
-  <b>Keep right<b>
+  <b>Keep right</b>
 </p>
 
 
