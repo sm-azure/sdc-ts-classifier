@@ -36,6 +36,7 @@ The distribution of the training set and validation set.
 
 #### Brightness
 
+
 A casual observation showed that most of the images had low levels of brightness. A very simple algorithm was used to increase the brighness and these images were added back to the training set. This did not have a large impact on the improving the accuracy of the prediction during validation runs.  
 
 #### Random Oversampling
@@ -93,6 +94,25 @@ Due to shortage of time additional transformations to the training data includin
 
 Final accuracy achieved on the validation set was ~95%. 
 
+## Test a Model on New Images
 
+### Acquiring New Images
+
+
+The 5 new images were downloaded from the Internet and are shown below,
+<p align="left">
+  <img src="/results/t1.png">
+  <img src="/results/t2.png">
+  <img src="/results/t3.png">
+  <img src="/results/t4.png">
+  <img src="/results/t5.png">
+  <br>
+  <b>Modified Lenet<b>
+</p>
+
+
+### Performance on New Images
+
+### Model Certainty - Softmax Probabilities
 
 
