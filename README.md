@@ -54,7 +54,11 @@ The images were then converted to grayscale.
 Each image was then normalized to center around 0 mean and sd. 
 
 ### Model Architecture
+The architecture used was a modified Lenet. The two primary modifications were, 
+* Increase the number of output classes to 43
+* Create a dropout to compensate for the oversampling
 
+The final picture looks like the one below. All activations used were RELU.
 <p align="center">
   <img src="/results/nn.png">
   <br>
