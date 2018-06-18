@@ -2,8 +2,8 @@
 This is the report for the traffic sign classification problem.
 
 ## Submission Files
-* Ipthon file - Traffic_Sign_Classifier.ipynb
-* HTML output of Code - Traffic_Sign_Classifier.html
+* Ipthon file - [Traffic_Sign_Classifier.ipynb](Traffic_Sign_Classifier.ipynb)
+* HTML output of Code - [Traffic_Sign_Classifier.html](Traffic_Sign_Classifier.html)
 * Writeup - this Readme
 
 ## Dataset Exploration
