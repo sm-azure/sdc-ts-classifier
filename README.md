@@ -107,11 +107,37 @@ The 5 new images were downloaded from the Internet and are shown below,
   <img src="/results/t4.png">
   <img src="/results/t5.png">
   <br>
-  <b>Modified Lenet<b>
+  <b>New Test Images<b>
 </p>
 
+Comparision with some random images from the training set for the above categories.
+<p align="left">
+  <img src="/results/t11.png">
+  <img src="/results/t12.png">
+  <img src="/results/t13.png">
+  <img src="/results/t14.png">
+  <img src="/results/t15.png">
+  <br>
+  <b>Training Data Sets<b>
+</p>
+
+The images from the web should not be too difficult to classify. However, the rectangular shape below the "Children crossing" could make it difficult to identify.  
 
 ### Performance on New Images
+
+
+The accuracy of the new images is 60%. The images that were incorrectly identified are the "Children Crossing" and the "Road Work" which were reported as "Bicycles crossing" and "Keep right" respectively. Here are some samples from the classes "Bicycles crossing" and "Keep right".
+<p align="left">
+  <img src="/results/t21.png">
+  <br>
+  <b>Bicycles crossing<b>
+</p>
+<p align="left">
+  <img src="/results/t22.png">
+  <br>
+  <b>Keep right<b>
+</p>
+
 
 ### Model Certainty - Softmax Probabilities
 
