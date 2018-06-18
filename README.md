@@ -17,8 +17,10 @@ A first look at the typical images in the dataset (taking any random 2 for the r
 
 The distribution of the training set and validation set. 
 ![Training Set Distribution](/results/distrib_1.png)
-![Validation Set Distribution](/results/distrib_2.png)
+*Training Set Distribution*
 
+![Validation Set Distribution](/results/distrib_2.png)
+*Validation Set Distribution*
 
 
 
