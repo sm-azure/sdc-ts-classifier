@@ -16,12 +16,19 @@ A first look at the typical images in the dataset (taking any random 2 for the r
 ![Label 1](/results/random_training_2.png)
 
 The distribution of the training set and validation set. 
-![Training Set Distribution](/results/distrib_1.png)
-*Training Set Distribution*
+<p align="center">
+  <img src="/results/distrib_1.png">
+  <br>
+  <b>Training Set Distribution<b>
+</p>
 
-![Validation Set Distribution](/results/distrib_2.png)
-*Validation Set Distribution*
+<p align="center">
+  <img src="/results/distrib_2.png">
+  <br>
+  <b>Validation Set Distribution<b>
+</p>
 
+## Design and Test a Model Architecture
 
 
 
