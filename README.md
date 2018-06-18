@@ -83,12 +83,12 @@ The final picture looks like the one below. All activations used were RELU.
 For training the model, the AdamOptimizer was used. The following hyperparameters were used,
 * EPOCHS = 10
 * BATCH_SIZE = 128
-* learning_rate for the optimizer = 0.001
+* learning_rate for the optimizer = 0.001 
 * Dropout probability in training = 0.5
 
 ### Solution Approach
 
-To understand the hyperparameter tuning better, only one change was performed at a time. Higher values of learning rate were resulting in wide oscillations in accuracy and were not convering - hence the value of 0.001 seemed most apporpriate. Larger epochs were not increasing the validation accuracy. Batch size was increased, but this was resulting in lower validation accuracy. The dropout probability was not changed. 
+To understand the hyperparameter tuning better, only one change was performed at a time. Higher values of learning rate were resulting in wide oscillations in accuracy and were not convering - hence the value of 0.001 seemed most apporpriate (ignore the results showing 0.002 - just incorrect printing). Larger epochs were not increasing the validation accuracy. Batch size was increased, but this was resulting in lower validation accuracy. The dropout probability was not changed. 
 
 Due to shortage of time additional transformations to the training data including rotations, blurring, shifts were not applied. However, it is understood as to why these transformations would enhance the accuracy and are planned for implementation in future work. 
 
@@ -126,19 +126,17 @@ The images from the web should not be too difficult to classify. However, the re
 ### Performance on New Images
 
 
-The accuracy of the new images is 60%. The images that were incorrectly identified are the "Children Crossing" and the "Road Work" which were reported as "Bicycles crossing" and "Keep right" respectively. Here are some samples from the classes "Bicycles crossing" and "Keep right".
-<p align="left">
-  <img src="/results/t21.png">
-  <br>
-  <b>Bicycles crossing</b>
-</p>
-<p align="left">
-  <img src="/results/t22.png">
-  <br>
-  <b>Keep right</b>
-</p>
-
+The accuracy of the new images is 100%. The accuracy is better than the test accuracy of 94%. 
 
 ### Model Certainty - Softmax Probabilities
 
+```
+[[9.9999392e-01, 6.0321086e-06, 2.8503568e-09, 7.5968095e-12, 1.7686936e-12],
+[1.0000000e+00, 3.9893177e-17, 1.2053429e-22, 1.3232147e-29, 2.7770240e-33],
+[9.9999905e-01, 1.0071300e-06, 2.1129049e-10, 5.5836256e-11, 1.6759392e-11],
+[1.0000000e+00, 8.9110941e-09, 5.3192712e-09, 4.0176173e-09, 3.2131988e-11],
+[9.9579382e-01, 2.1311750e-03, 1.6901150e-03, 3.5209738e-04, 1.4136428e-05]]
+```
+
+The softmax probabilites indicate that the model is really certain about the classes it is predicting (prob ~1) while all other classes is with prob ~ 0. 
 
